@@ -5,8 +5,6 @@ fn main() {
     for i in numbers{
         sum+=i
     }
-    println!(
-        "{}",sum
-    )
-}
+    println!( "{}",sum )
+}ti
 
