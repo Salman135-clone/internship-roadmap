@@ -16,5 +16,6 @@ if(userNumber > randomNumber){
 }else{
     console.log("invalid value")
 }
-console.log("System Guess Number:",randomNumber)
+console.log('Your Guess Number is:',userNumber)
+console.log("System Guess Number is:",randomNumber)
 
