@@ -6,5 +6,5 @@ fn main() {
         sum+=i
     }
     println!( "{}",sum )
-}ti
+}
 
