@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ECFDF5;
+    color: #065F46;
+    font-family: Arial, sans-serif;
+}
+
+
+
+.navbar {
+    background-color: #064E3B;
+    color: white;
+    padding: 1.5rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #FFFFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 1rem;
+    padding: 0.6rem 0.8rem;
+    border-radius: 4px;
+
+}
+
+li a:hover {
+    background-color: #22C55E;
+}
+
+.portfolio-container {
+    padding: 1rem 3rem;
+    margin-bottom: 0.5rem;
+
+}
+
+.banner {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+
+}
+
+
+/* left side for welcome text and resume button  */
+.left-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.welcome-text {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.paragraph {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    text-align: justify;
+
+}
+
+.portfolio-section {
+    margin-bottom: 3rem;
+}
+
+.resume-btn {
+    background-color: #065F46;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.resume-btn:hover {
+    background-color: #04523c;
+}
+
+.resume-btn-section {
+    margin-bottom: 1rem;
+}
+
+/* banner section on the right side image css */
+.right-side {
+    width: 50%;
+}
+
+.right-section-image {
+    width: 100%;
+}
+
+/* project section css */
+.project-section {
+    padding: 1rem 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* gap: 1rem; */
+}
+
+.project-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    padding-left: 1rem;
+
+}
+
+.project-card {
+    border-radius: 8px;
+    text-align: justify;
+    height: 12.5rem;
+    max-width: 25rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.project-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #e4fcf5;
+    border-color: #e4fcf5;
+}
+
+.project-card-heading {
+    font-size: 1.5rem;
+    font-weight: semi-bold;
+    margin: 0.5rem 1rem 1rem 0;
+}
+
+.project-card-description {
+    font-size: 1rem;
+    margin: 0 1rem 1rem 0;
+    line-height: 1.2;
+}
+
+.project-link-section {
+    margin: 0 1rem 1rem 0;
+}
+
+.single-links {
+    text-decoration: none;
+    color: #10B981;
+    font-weight: bold;
+    font-size: .9rem;
+
+}
+
+#icon {
+    margin-left: 0.5rem;
+}
+
+/* experience section css */
+
+.experience-section {
+    padding: 1rem 3rem;
+    margin-bottom: 3rem;
+}
+
+.experience-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    /* max-width:40rem ; */
+
+}
+
+.left-line {
+    border-left: 4px solid #10B981;
+    padding-left: 1rem;
+}
+
+.experience-card-heading {
+    font-size: 1.2rem;
+    font-weight: semi-bold;
+    margin-bottom: 0.5rem;
+}
+
+.date-section {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    max-width: 400px;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.date-span {
+    font-weight: bold;
+    font-size: 1rem;
+    padding-right: 0.5rem;
+}
+
+.experience-card-description {
+    font-size: .9rem;
+    line-height: 1.4;
+    text-align: justify;
+}
+
+/* footer section css */
+
+.footer-section {
+    background-color: #064E3B;
+    color: white;
+    padding: 1.5rem 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-link {
+    color: white;
+}
+
+
+/* contact page css */
+
+.contact-section {
+    padding: 1rem 3rem;
+    margin-top: 4rem;
+
+}
+
+.page-heading-text {
+    font-size: 2rem;
+    width: 70%;
+    font-weight: 700;
+    margin-bottom: 1.5rem
+}
+
+.contact-paragraph {
+    font-size: 1.2rem;
+    line-height: 1.4;
+    font-weight: normal;
+    text-align: justify;
+}
+
+.contact-form-container {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.form-subheading-text {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+}
+
+label {
+    font-weight: bold;
+
+}
+
+input {
+
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea {
+
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.submit-btn {
+    margin-top: 1rem;
+    padding: 12px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: #064E3B;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .banner {
+        flex-direction: column-reverse;
+        align-items: center;
+
+    }
+
+    .left-side,
+    .right-side {
+        width: 100%;
+    }
+
+    .project-container {
+        grid-template-columns: 1fr;
+
+    }
+
+    .project-card {
+        max-width: 100%;
+        height: auto;
+    }
+
+    .page-heading-text {
+        width: 100%;
+    }
+
+    .contact-section {
+        padding: 1rem 0.8rem;
+    }
+
+    .page-heading-text {
+        font-size: 1.5rem;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+
+    .form-subheading-text {
+        font-size: 1.5rem;
+    }
+
+    .footer-section {
+        flex-direction: column;
+    }
+
+    .navbar {
+        padding: 1rem 0.8rem;
+    }
+
+    .portfolio-container {
+        padding: 1rem 0.8rem;
+    }
+
+    .project-section {
+        padding: 1rem 0.8rem;
+    }
+
+    .project-heading {
+        font-size: 1.8rem;
+        padding-left: 0;
+    }
+
+    .experience-section {
+        padding: 1rem 0.8rem;
+    }
+
+    .date-section {
+        align-items: baseline;
+        flex-direction: column;
+    }
+}
