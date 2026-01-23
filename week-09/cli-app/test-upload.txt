@@ -1,0 +1,9 @@
+Test Upload File
+===============
+This is a simple text file you can use to test file uploads.
+
+Fields to try from frontend:
+- username: testuser
+- email: test@example.com
+
+If you can upload and read this file, your pipeline works.

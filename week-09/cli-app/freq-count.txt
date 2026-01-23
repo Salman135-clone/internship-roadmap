@@ -1,0 +1,6 @@
+Hello world! Welcome to the Node.js word frequency counter.
+This script reads a text file, cleans it by removing punctuation, 
+and counts how many times each word appears. Hello again, world!
+
+Node.js is fun. Node.js makes working with files easy.
+Counting words in a file is a common programming task.
